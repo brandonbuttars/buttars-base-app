@@ -1,0 +1,28 @@
+@import 'normalize.css';
+@import './styles/fonts.postcss';
+@import './styles/dark.postcss';
+@import './styles/light.postcss';
+
+:root {
+  --theme-rem: 4px;
+  --theme-sans: 'Poppins', sans-serif;
+  --theme-bold: 700;
+  --theme-reg: 100;
+  --theme-spacing: 10rem;
+}
+
+html {
+  font-size: var(--theme-rem);
+  font-family: var(--theme-sans);
+  background: var(--theme-bg);
+  color: var(--theme-color);
+  font-weight: var(--theme-reg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: var(--theme-reg);
+}
